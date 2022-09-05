@@ -1,0 +1,15 @@
+<html>
+    <head>
+        <script>
+            //this is to add 2 numbers
+            function add(a,b){
+             console.log(a+b);
+             console.log("Hello");
+            }
+            </script>
+            </head>
+            <boby>
+                <p>This is my first Javascript program</p>
+                <button onclick="add(7,3)">Add</button>
+                </boby>
+</html>
