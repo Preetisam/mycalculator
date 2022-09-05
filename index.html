@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <script>
+            //   function getDivision(){
+            //     var marks = document.getElementById("marks").value;
+            //     if (marks >= 75) {
+            //     console.log("you got distincation");
+            //     } else if(marks >= 60) {
+            //         console.log("you got first class");
+            //     }else if(marks >= 45) {
+            //         console.log("second class");
+            //     } else {
+            //         console.log("Sorry but you did not clear the exam");
+            //     }
+            // }  
+            function getNationality(){
+                var country = document.getElementById("country").value;
+                switch(country){
+                  case "India":
+                    console.log("You are indian national");
+                    break;
+                    case "USA":
+                        console.log("You are American");
+                        break;
+                        default:
+                            console.log("You are alien");
+                            break;  
+                } 
+            }
+            
+        </script>
+    </head>
+    <body>
+        <!-- <div>
+         <lable for="age" id="myLabel"></lable>Enter your age</lable>
+         <input type="text" id="age"/>
+         <button onclick="canVote()">CanVote</button>
+        </div> -->
+        <br />
+        <div>
+         <lable for="marks" id="myLabel"></lable>Enter your age</lable>
+         <input type="text" id="marks"/>
+         <button onclick="getDivision()">Get Results</button>
+         <div>
+            <lable for="country" id="myLabel"></lable>Enter your country</lable>
+            <input type="text" id="country"/>
+            <button onclick="getNationality()">Get Results</button>
+        </div>
+     </body>
+</html>
